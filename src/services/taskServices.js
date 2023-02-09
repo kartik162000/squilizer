@@ -2,7 +2,6 @@ const db = require('../models')
 
 const getAllTasks = async () => {
     const result = await db.Task.findAll();
-    //console.log(typeof result);
     return result;
   }
   
